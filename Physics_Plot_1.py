@@ -12,3 +12,5 @@ plt.plot(x, y, 'o', color='black')
 print(op.curve_fit(False, x, y))
 
 plt.show()
+
+# ok
