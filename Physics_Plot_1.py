@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
+from scipy import optimize as op
 import numpy as np
-import scipy as sp
 
 plt.style.use('seaborn-whitegrid')
 
@@ -9,6 +9,6 @@ y =  [0, 84.4601602390228, 221.12856467134338, 350.8229555229009, 436.5222350582
 
 plt.plot(x, y, 'o', color='black')
 
-print()
+print(op.curve_fit(False, x, y))
 
 plt.show()
